@@ -1,0 +1,30 @@
+Generate Terraform code for a production-ready AWS deployment.
+
+Requirements:
+
+1. Custom VPC
+2. Public and private subnets across 2 AZs
+3. NAT Gateway
+4. Internet Gateway
+5. Security Groups
+6. Application Load Balancer
+7. Auto Scaling Group
+8. EC2 instances
+9. RDS PostgreSQL
+10. CloudWatch monitoring
+11. Outputs and variables
+12. Separate modules for:
+   - networking
+   - compute
+   - database
+
+Follow Terraform best practices and explain architectural decisions.
+
+Evaluation Metrics I have considered
+| Metric                | Check              |
+| --------------------- | ------------------ |
+| Terraform correctness | Valid resources    |
+| Production readiness  | ALB, ASG, RDS      |
+| Modularity            | Modules            |
+| Security              | SG rules           |
+| Best practices        | Variables, outputs |

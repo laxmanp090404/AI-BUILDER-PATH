@@ -1,0 +1,47 @@
+PostgreSQL Database
+
+Tables:
+
+employees(
+ employee_id,
+ employee_name,
+ department_id,
+ role_id
+)
+
+complaints(
+ complaint_id,
+ category_id,
+ raised_by_employee_id,
+ current_owner_employee_id,
+ status_id,
+ priority_id,
+ escalation_level,
+ created_at,
+ resolved_at
+)
+
+categories(
+ category_id,
+ category_name,
+ department_id,
+ sla_hours
+)
+
+Generate optimized PostgreSQL queries for:
+
+1. Top 5 departments with highest complaint volume.
+2. Average resolution time per category.
+3. SLA breach percentage per department.
+4. Escalated complaints count by month.
+5. Employee with highest complaints assigned.
+
+Provide indexes required for performance and explain query optimization decisions.
+
+Evaluation Metrics I have considered:
+| Metric              | Check                 |
+| ------------------- | --------------------- |
+| SQL Correctness     | Query accuracy        |
+| PostgreSQL Features | CTEs, FILTER, EXTRACT |
+| Optimization        | Proper indexes        |
+| Explanation         | Reasoning quality     |

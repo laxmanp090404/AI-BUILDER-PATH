@@ -1,0 +1,31 @@
+You are a senior backend engineer.
+
+Design and implement a Complaint & Grievance Redressal API using Node.js, Express, PostgreSQL, and JWT authentication.
+
+Requirements:
+
+1. Create complaint endpoint.
+2. Validate inputs.
+3. Use parameterized PostgreSQL queries.
+4. Implement role-based authorization:
+   - EMPLOYEE
+   - GRO
+   - DEPARTMENT_HEAD
+   - ADMIN
+5. Store attachments metadata.
+6. Use transactions where required.
+7. Return proper HTTP status codes.
+8. Include error handling middleware.
+9. Follow layered architecture.
+
+Generate production-quality code structure and sample implementation for the Create Complaint API.
+
+Evaluation Metrics I have considered:
+
+| Metric          | Check                   |
+| --------------- | ----------------------- |
+| Architecture    | Layer separation        |
+| Security        | JWT, validation         |
+| Maintainability | Clean code              |
+| Completeness    | Covers all requirements |
+| Correctness     | Valid implementation    |
