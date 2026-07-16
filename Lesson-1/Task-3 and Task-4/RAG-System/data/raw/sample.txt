@@ -1,0 +1,13 @@
+DevOps is a software engineering practice that combines software development and IT operations.
+
+Continuous Integration (CI) is the practice of automatically building and testing code whenever changes are committed.
+
+Continuous Deployment (CD) automatically deploys validated changes into production environments.
+
+Docker packages applications and their dependencies into lightweight containers.
+
+Kubernetes is a container orchestration platform that automates deployment, scaling, and management of containerized applications.
+
+Terraform is an Infrastructure as Code (IaC) tool used to provision and manage cloud resources declaratively.
+
+AWS provides cloud services such as EC2, S3, RDS, Lambda, and VPC for building scalable applications.

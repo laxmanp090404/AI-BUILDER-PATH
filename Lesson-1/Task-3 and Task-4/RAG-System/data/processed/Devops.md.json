@@ -1,0 +1,128 @@
+[
+  {
+    "page_content": "# Introduction to DevOps\n\n## What is DevOps?\n\n**DevOps** is a combination of **Development (Dev)** and **Operations (Ops)**. It is a set of practices, tools, and cultural philosophies that improve collaboration between software development and IT operations teams. The primary goal of DevOps is to deliver high-quality software faster and more reliably.\n\n---\n\n## Why DevOps?\n\nTraditional software development often faces challenges such as:",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 1,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## Why DevOps?\n\nTraditional software development often faces challenges such as:\n\n- Slow software delivery\n- Poor communication between teams\n- Manual deployment errors\n- Inconsistent environments\n- Delayed feedback and bug fixes\n\nDevOps addresses these issues by automating processes, improving collaboration, and enabling continuous delivery.\n\n---\n\n## Goals of DevOps",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 2,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## Goals of DevOps\n\n- Accelerate software delivery\n- Improve collaboration between teams\n- Increase deployment frequency\n- Reduce deployment failures\n- Enable faster recovery from failures\n- Maintain high software quality\n\n---\n\n## DevOps Lifecycle\n\nThe DevOps lifecycle consists of the following stages:\n\n1. **Plan**\n   - Define project requirements.\n   - Create user stories and sprint plans.\n\n2. **Develop**\n   - Write and manage source code.\n   - Use version control systems like Git.",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 3,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "2. **Develop**\n   - Write and manage source code.\n   - Use version control systems like Git.\n\n3. **Build**\n   - Compile the application.\n   - Package dependencies.\n   - Generate build artifacts.\n\n4. **Test**\n   - Perform automated testing.\n   - Validate application quality.\n\n5. **Release**\n   - Prepare the application for deployment.\n   - Perform approvals if necessary.",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 4,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "5. **Release**\n   - Prepare the application for deployment.\n   - Perform approvals if necessary.\n\n6. **Deploy**\n   - Deploy applications to development, staging, or production environments.\n   - Automate deployments using CI/CD pipelines.\n\n7. **Operate**\n   - Monitor application health.\n   - Manage infrastructure.\n   - Handle incidents and scaling.\n\n8. **Monitor**\n   - Collect logs and metrics.\n   - Analyze performance.\n   - Continuously improve the application.\n\n---\n\n## Core DevOps Principles",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 5,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## Core DevOps Principles\n\n### Collaboration\n\nDevelopment, operations, security, and QA teams work together throughout the software lifecycle.\n\n### Automation\n\nAutomate repetitive tasks such as:\n\n- Building\n- Testing\n- Deployment\n- Infrastructure provisioning\n- Monitoring\n\n### Continuous Integration (CI)\n\nDevelopers frequently merge code into a shared repository where automated builds and tests are executed.\n\n### Continuous Delivery (CD)",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 6,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "### Continuous Delivery (CD)\n\nApplications are always ready for deployment with automated testing and validation.\n\n### Continuous Deployment\n\nEvery successful code change is automatically deployed to production.\n\n### Infrastructure as Code (IaC)\n\nInfrastructure is defined using code rather than manual configuration.\n\nExample tools:\n\n- Terraform\n- AWS CloudFormation\n- Ansible\n\n---\n\n## Popular DevOps Tools",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 7,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "| Category | Tools |\n|----------|-------|\n| Version Control | Git, GitHub, GitLab, Bitbucket |\n| CI/CD | Jenkins, GitHub Actions, GitLab CI, Azure DevOps |\n| Build Tools | Maven, Gradle, npm |\n| Containers | Docker |\n| Container Orchestration | Kubernetes, OpenShift |\n| Configuration Management | Ansible, Chef, Puppet |\n| Infrastructure as Code | Terraform, CloudFormation |\n| Monitoring | Prometheus, Grafana |\n| Logging | ELK Stack, Loki, Splunk |\n| Cloud Platforms | AWS, Azure, Google Cloud |",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 8,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## Benefits of DevOps\n\n- Faster software delivery\n- Higher deployment frequency\n- Improved collaboration\n- Better software quality\n- Reduced operational costs\n- Faster issue resolution\n- Improved customer satisfaction\n- Reliable and repeatable deployments\n\n---\n\n## DevOps Workflow",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 9,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## DevOps Workflow\n\n```text\nDeveloper\n    │\n    ▼\nWrite Code\n    │\n    ▼\nGit Repository\n    │\n    ▼\nContinuous Integration\n(Build + Test)\n    │\n    ▼\nArtifact Repository\n    │\n    ▼\nContinuous Delivery\n    │\n    ▼\nDeployment\n    │\n    ▼\nProduction\n    │\n    ▼\nMonitoring\n    │\n    └───────────────┐\n                    ▼\n               Feedback\n```\n\n---\n\n## DevOps Best Practices",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 10,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## DevOps Best Practices\n\n- Use version control for everything.\n- Automate testing and deployment.\n- Monitor applications continuously.\n- Implement Infrastructure as Code.\n- Practice continuous integration.\n- Secure the CI/CD pipeline.\n- Use containers for consistency.\n- Encourage collaboration and shared responsibility.\n\n---\n\n## Challenges in DevOps\n\n- Cultural resistance\n- Legacy systems\n- Security integration\n- Tool complexity\n- Skill gaps\n- Monitoring distributed systems\n\n---",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 11,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## DevSecOps\n\n**DevSecOps** extends DevOps by integrating security into every stage of the software development lifecycle.\n\nSecurity activities include:\n\n- Static code analysis\n- Dependency scanning\n- Container image scanning\n- Secret management\n- Compliance checks\n- Runtime security monitoring\n\n---\n\n## Key Concepts to Learn",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 12,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## Key Concepts to Learn\n\n- Git & GitHub\n- Linux fundamentals\n- Shell scripting\n- Docker\n- Kubernetes\n- Jenkins\n- CI/CD pipelines\n- Terraform\n- Ansible\n- Cloud platforms (AWS, Azure, GCP)\n- Monitoring with Prometheus & Grafana\n\n---\n\n## Summary",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 13,
+      "page": "N/A"
+    }
+  },
+  {
+    "page_content": "---\n\n## Summary\n\nDevOps is a modern software development approach that combines development and operations to deliver applications quickly, reliably, and efficiently. By emphasizing automation, collaboration, continuous integration, continuous delivery, and monitoring, organizations can build high-quality software while reducing deployment risks and improving operational efficiency.",
+    "metadata": {
+      "source": "Devops.md",
+      "file_type": ".md",
+      "chunk_id": 14,
+      "page": "N/A"
+    }
+  }
+]
